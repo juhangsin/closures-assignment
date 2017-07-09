@@ -7,10 +7,10 @@ var helloWorld = getPrintFunction(message);
 // The important parts are: creating a function, and inside of that, returning another function that does what we want.
 // ----------------------------------------
 function getPrintFunction(message) {
-  var message = "Hello world!";
-  return function() {
-    console.log(message);
-  }
+	var message = "Hello world!";
+	return function() {
+		console.log(message);
+	}
 }
 // ----------------------------------------
 
